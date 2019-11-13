@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,14 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Den här sidan är skapad för kursen design som går på Blekinge Tekniska Högskola.
+Sidan kommer användas för att experimentera och förhoppningsvis lära mig något om hur man skapar snygga hemsidor!
 
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/sistinechapel.jpg?w=300 caption="Ett exempel på vacker design."]

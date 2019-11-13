@@ -64,6 +64,15 @@ return [
             ],
         ],
         [
+            "region" => "main",
+            "template" => "anax/v2/block/default",
+            "data" => [
+                "class"  => "author-byline",
+                "contentRoute" => "block/byline",
+            ],
+            "sort" => 3
+        ],
+        [
             "region" => "footer",
             "template" => "anax/v2/columns/multiple_columns",
             "data" => [

@@ -13,5 +13,3 @@ Jag heter Niko Ollikainen och detta är min sida som jag skapat för kursen html
 Då jag under min utbildning har fått upp ett intresse för programmering bestämde jag mig i våras för att söka kurspaketet Webbprogrammering och Databaser och lite andra programmeringskurser för att få en lite bredare kunskap utöver Java som jag främst använt tidigare.
 
 På fritiden sysselsätter jag mig med kampsport, spelar lite hockey under vintern och försöker trots skillnaden i tidszoner följa Nhl. Har även ett stort historieintresse så det blir en del läsning och vid lite längre ledigheter reser jag gärna.
-
-/Mikael
