@@ -89,7 +89,7 @@ return [
                     [
                         "template" => "anax/v2/block/default",
                         "contentRoute" => "block/footer-col-3",
-                    ]
+                    ],
                 ]
             ],
             "sort" => 1

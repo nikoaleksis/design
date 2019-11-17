@@ -4,8 +4,6 @@ title: "Min fina titel"
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
-
 [FIGURE src="image/niko2.jpg?w=500" class="right" caption="Bild på mig"]
 
 Jag heter Niko Ollikainen och detta är min sida som jag skapat för kursen htmlphp som går på Blekinge Tekniska Högskola. Jag är född och uppvuxen på Hisingen i Göteborg där jag bor, studerar och jobbar än idag. Hösten 2018 började jag mina studier på Göteborgs Universitet där jag läser Systemvetenskap. Innan det hade jag arbetat ett par år hos Volvo Cars där jag fortfarande har en deltidsanställning.
