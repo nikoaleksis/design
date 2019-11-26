@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom01.css",
+                "css/kmom02.min.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -70,7 +70,7 @@ return [
                 "class"  => "author-byline",
                 "contentRoute" => "block/byline",
             ],
-            "sort" => 3
+            "sort" => 5
         ],
         [
             "region" => "footer",

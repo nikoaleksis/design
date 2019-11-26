@@ -1,0 +1,106 @@
+/**
+ * Layout style for header, navbar */
+
+/**
+ * Variables
+ */
+@headerBgColor: #504949;
+@headerColor: #fff;
+
+ /* Hide responsive/mobile menu, leave this to kmom02 */
+ .rm-navbar-max {
+    // display: none;
+    background-color: @headerColor;
+ }
+
+ .rm-desktop ul {
+     display: block;
+     position: absolute;
+ }
+
+/* Header */
+
+.outer-wrap-header {
+    .clearfix();
+    background-color: @headerBgColor;
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1 {
+    float: left;
+    width: 20%;
+    margin-right: 30px;
+
+    .site-logo {
+        display: none;
+    }
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 70%;
+}
+
+.region-header-col-3 {
+    width: 20%;
+}
+
+.my-navbar {
+    list-style-type: none;
+    color: @headerColor;
+
+    li {
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+        //height: 40px;
+        //border-color: #fff;
+        //background-color: #242528;
+        text-align: center;
+        //line-height: 40px;
+
+        a {
+        /*    text-decoration: none;
+            color: #fff;
+            display: block;*/
+
+            &:hover {
+                background-color: #eee;
+                color: black;
+            }
+        }
+
+        ul {
+            li {
+                /*display: none;*/
+            }
+        }
+
+        &:hover {
+            ul {
+                li {
+                    display: block;
+                    background-color: @headerBgColor;
+                }
+            }
+        }
+    }
+}
+
+
+.site-logo-text {
+    font-family: "Times New Roman",Times,serif;
+    padding-left: .2em;
+    font-size: 42px;
+    line-height: 1;
+    text-shadow: 2px -2px 2px #ccc;
+
+    a {
+        color: @headerColor;
+        text-decoration: none;
+        transition: all .2s linear;
+    }
+}

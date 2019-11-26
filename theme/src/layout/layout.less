@@ -1,0 +1,150 @@
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+
+/**
+* Variables
+*/
+
+/**
+* General layout
+*/
+
+.outer-wrap {
+    width: 100%;
+}
+
+.inner-wrap {
+    //width: 80%;
+    //margin: 0 auto;
+}
+
+.stylechooser {
+    padding: 1em;
+}
+
+.inner-wrap-flash {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/**
+* Main and sidebars layout
+*/
+
+.inner-wrap-main {
+    padding: 30px 0;
+    width: 80%;
+    margin: 0 auto;
+    .clearfix();
+}
+
+.stylechooser {
+    padding: 1em;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    .clearfix();
+    float: left;
+    min-height: 600px;
+
+    .article {
+        .figure.right {
+            width: 50%;
+            float: right;
+
+            figcaption {
+                font-size: small;
+                font-style: italic;
+            }
+        }
+    }
+
+    &.has-sidebar {
+        margin-left: 0;
+
+        .next-previous {
+            padding: 1em;
+
+            a {
+                color: @headerBgColor;
+                padding: 10px;
+                margin: 0.5em;
+            }
+        }
+    }
+
+    &.has-sidebar-left.has-sidebar-right,
+    &.has-sidebar-right.has-sidebar-left {
+        width: 60%;
+
+    }
+}
+
+.outer-wrap-breadcrumb {
+    display: none;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+    .clearfix();
+
+    .toc {
+        list-style-type: none;
+        padding: 0;
+
+        h4 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        li {
+            background-color: @headerBgColor;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 0.5em;
+            width: auto;
+            text-align: center;
+            .clearfix();
+
+            a {
+                text-decoration: none;
+                color: @headerColor;
+            }
+        }
+    }
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+    .clearfix();
+}
+
+/* Byline */
+
+.author-byline {
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #666;
+
+    img {
+        float: left;
+        height: 100%;
+        width: 90px;
+    }
+
+    p {
+        display: block;
+        padding-left: 7em;
+        padding-right: 3em;
+    }
+}
