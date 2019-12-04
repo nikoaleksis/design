@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom02.min.css",
+                "css/kmom03.min.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -64,7 +64,7 @@ return [
             ],
         ],
         [
-            "region" => "main",
+            "region" => "after-main",
             "template" => "anax/v2/block/default",
             "data" => [
                 "class"  => "author-byline",

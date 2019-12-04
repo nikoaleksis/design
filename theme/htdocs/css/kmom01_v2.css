@@ -358,16 +358,16 @@ img {
   padding-right: 3em;
 }
 /**
- * Layout for responsive style through media queries.
- */
+* Layout for responsive style through media queries.
+*/
 @media screen and (max-width: 1500px) {
   .site-logo {
     display: none;
   }
 }
 /**
- * Navbar
- */
+* Navbar
+*/
 @media screen and (max-width: 1045px) {
   .my-navbar li {
     padding-left: 0.5em;
@@ -416,7 +416,7 @@ img {
   }
 }
 /*
- *Byline
+*Byline
 */
 @media screen and (max-width: 620px) {
   .author-byline {

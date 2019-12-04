@@ -1,0 +1,90 @@
+/*!
+ * Stylesheet for design kmom03.
+ *
+ * This stylesheet is for the design course and kmom03 where we use LESS.
+ */
+
+
+/*
+ *Normalizes and resets
+ */
+ @import "normalize.css/normalize.less";
+
+ /*
+  * Import mixins
+ */
+
+  @import "mixin/clearfix.less";
+
+ .clearfix() {
+     #design-mixin.clearfix();
+ }
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+ /**
+  * A responsive menu.
+  */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ //@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base-hgrid.less";
+
+
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid-layout.less";
+@import "layout/vgrid-header.less";
+@import "layout/vgrid-footer.less";
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+ @bgColorBody: #999;
+ @colorBody: #333;
+ @headerBgColor: #333;
+ @headerColor: #fff;
+ @footerBgColor: #333;
+ @footerColor: #fff;
+
+
+ @fontSizeBody: 16px;
+ @magicNumber:  @fontSizeBody * 1.5;
