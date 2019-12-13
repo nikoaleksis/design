@@ -4,8 +4,8 @@
 @bgColorHtml: #424242;
 @bgColorBody: #c2bcbc;
 @colorBody: #333;
-@fontFamilyHeadings: @fontFamilyGaramond;
-@fontFamilyBody: @fontFamilyHelveticaNeue: ;
+//@fontFamilyHeadings: @fontFamilyGaramond;
+//@fontFamilyBody: @fontFamilyHelveticaNeue: ;
 
 html {
     overflow-y: scroll;
@@ -21,7 +21,7 @@ body {
     #desinax-hgrid.font(@fontSizeBody);
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -31,12 +31,18 @@ h6 {
 }
 
 p {
-    font-style: @fontFamilyBody;
-}
+    font-family: @fontFamilyBody;
+}*/
 
 img {
     max-width: 100%;
 }
 
+
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();
+
+@media screen and (max-width: 550px) {
+
+    @fontSizeH1: 2;
+}

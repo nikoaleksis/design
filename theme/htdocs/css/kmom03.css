@@ -4977,6 +4977,62 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Typographic font families to choose from.
  */
+@font-face {
+  font-family: 'Gelasio';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Gelasio Regular'), local('Gelasio-Regular'), url(https://fonts.gstatic.com/s/gelasio/v1/cIf9MaFfvUQxTTqS9C6hZA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kurale Regular'), local('Kurale-Regular'), url(https://fonts.gstatic.com/s/kurale/v5/4iCs6KV9e9dXjhoKfw7z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('ABeeZee Regular'), local('ABeeZee-Regular'), url(https://fonts.gstatic.com/s/abeezee/v13/esDR31xSG-6AGleN2tWklQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v11/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Reenie Beanie'), local('ReenieBeanie'), url(https://fonts.gstatic.com/s/reeniebeanie/v10/z7NSdR76eDkaJKZJFkkjuvWxXPq1rg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Girassol';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Girassol Regular'), local('Girassol-Regular'), url(https://fonts.gstatic.com/s/girassol/v1/JTUUjIo_-DK48laaNB9KxW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Big Shoulders Display Regular'), local('BigShouldersDisplay-Regular'), url(https://fonts.gstatic.com/s/bigshouldersdisplay/v1/fC1_PZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1czNDr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Megrim';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Megrim'), url(https://fonts.gstatic.com/s/megrim/v10/46kulbz5WjvLqJZVam_k.ttf) format('truetype');
+}
 /**
  * Typographic defaults.
  */
@@ -5013,7 +5069,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@font FamilyBody: "Helvetica Neue", Helvetica, Arial, sans-serif:;
 html {
   overflow-y: scroll;
   background-color: #424242;
@@ -5025,17 +5080,18 @@ body {
   background-color: #999;
   font: 16px/1.5 "sans-serif";
 }
-h1,
+/*h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-style: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+    font-style: @fontFamilyHeadings;
 }
+
 p {
-  font-style: "sans-serif";
-}
+    font-family: @fontFamilyBody;
+}*/
 img {
   max-width: 100%;
 }
@@ -5045,7 +5101,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5424,6 +5480,14 @@ hr::after {
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
 }
+.region-main .article .figure.right {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  float: right;
+}
 .region-main .article .figure.right figcaption {
   font-size: small;
   font-style: italic;
@@ -5460,20 +5524,24 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-.region-sidebar-left .toc,
-.region-sidebar-right .toc {
+.region-sidebar-left .block.toc h4,
+.region-sidebar-right .block.toc h4 {
+  text-align: center;
+}
+.region-sidebar-left .block.toc .toc,
+.region-sidebar-right .block.toc .toc {
   list-style-type: none;
 }
-.region-sidebar-left .toc li,
-.region-sidebar-right .toc li {
+.region-sidebar-left .block.toc li,
+.region-sidebar-right .block.toc li {
   background-color: #333;
   border-radius: 20px;
   padding: 10px;
   margin: 0.5em;
   text-align: center;
 }
-.region-sidebar-left .toc li a,
-.region-sidebar-right .toc li a {
+.region-sidebar-left .block.toc li a,
+.region-sidebar-right .block.toc li a {
   text-decoration: none;
   color: #fff;
 }
@@ -5497,7 +5565,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 13.02083333%;
-  border: 2px solid #666;
+  border: 1px solid #666;
 }
 .block.author-byline .author-byline {
   display: inline-flex;
@@ -5599,6 +5667,10 @@ hr::after {
 .region-header-col-3 .site-logo {
   display: none;
 }
+.region-header-col-1 .site-logo-text,
+.region-header-col-3 .site-logo-text {
+  font-family: "Times New Roman", Times, serif;
+}
 .region-header-col-2 {
   display: inline;
   float: left;
@@ -5644,6 +5716,21 @@ hr::after {
   .region-header-col-1 .site-logo-text {
     font-size: 2em;
   }
+  .region-header-col-3 {
+    display: inline;
+    float: left;
+    width: 3.125%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-header-col-2 {
+    display: inline;
+    float: left;
+    width: 78.125%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 850px) {
   .region-header-col-1 {
@@ -5656,17 +5743,17 @@ hr::after {
   .region-header-col-1 .site-logo-text {
     font-size: 1.5em;
   }
-  .region-header-col-3 {
+  .region-header-col-1 {
     display: inline;
     float: left;
-    width: 3.125%;
+    width: 11.45833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
   .region-header-col-2 {
     display: inline;
     float: left;
-    width: 78.125%;
+    width: 82.29166667%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
     text-align: center;
@@ -5715,11 +5802,8 @@ hr::after {
   margin-left: auto;
   max-width: 100%;
 }
-.region-footer {
-  color: #ddd;
-}
 .region-footer a {
-  color: #ddd;
+  color: #fff;
 }
 .footer-column {
   display: inline;

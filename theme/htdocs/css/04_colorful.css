@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04 - COLORFUL THEME -.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 - COLORFUL THEME - where we use LESS.
  */
 /*
  *Normalizes and resets
@@ -5077,8 +5077,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #999;
-  font: 16px/1.5 "sans-serif";
+  background-color: #9fc462;
+  font: 24px/1.4 "Reenie Beanie", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /*h1,
 h2,
@@ -5101,9 +5101,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
-  margin-top: 24px;
-  margin-bottom: 24px;
+  font-family: "Indie Flower", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 33.6px;
+  margin-bottom: 33.6px;
 }
 h1 img,
 h2 img,
@@ -5115,10 +5115,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.17894737;
   font-weight: normal;
-  border-bottom: 1px solid #666;
-  margin-bottom: 23px;
+  border-bottom: 2px solid #655091;
+  margin-bottom: 31.6px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -5126,58 +5126,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 48px;
+  margin-top: 67.2px;
 }
 h1 + h2 {
-  margin-top: 24px;
+  margin-top: 33.6px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.6;
+  line-height: 1.49333333;
   font-weight: normal;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #CCC;
+  margin-bottom: 31.6px;
+  border-bottom: 2px solid #655091;
 }
 h2 + h3 {
-  margin-top: 24px;
+  margin-top: 33.6px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.71428571;
+  line-height: 1.6;
   font-weight: normal;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 31.6px;
+  border-bottom: 2px solid #655091;
 }
 h3 + h4 {
-  margin-top: 24px;
+  margin-top: 33.6px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.86666667;
   font-weight: normal;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 31.6px;
+  border-bottom: 2px solid #655091;
 }
 h4 + h5 {
-  margin-top: 24px;
+  margin-top: 33.6px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.2;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  line-height: 1.12;
+  margin-bottom: 31.6px;
+  border-bottom: 2px solid #655091;
 }
 h5 + h6 {
-  margin-top: 24px;
+  margin-top: 33.6px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.2;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  line-height: 1.12;
+  margin-bottom: 31.6px;
+  border-bottom: 2px solid #655091;
 }
 p {
-  margin-bottom: 24px;
+  margin-bottom: 33.6px;
 }
 small,
 .small,
@@ -5218,7 +5218,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 24px;
+  margin-bottom: 33.6px;
 }
 pre,
 code,
@@ -5244,7 +5244,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 24px;
+  margin-bottom: 33.6px;
 }
 pre code {
   display: block;
@@ -5254,21 +5254,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 23px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  margin-bottom: 32.6px;
+  padding-top: 16.8px;
+  padding-bottom: 16.8px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 24px;
+  margin-bottom: 33.6px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 16.8px;
+  margin-bottom: 16.8px;
 }
 ul ul,
 ol ul,
@@ -5283,7 +5283,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 24px;
+  margin-bottom: 33.6px;
 }
 dl.horizontal dt {
   clear: left;
@@ -5301,7 +5301,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 24px;
+  margin-bottom: 33.6px;
 }
 table.full-width,
 article .table,
@@ -5322,7 +5322,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.71428571;
+  line-height: 1.6;
   text-align: left;
   font-style: italic;
 }
@@ -5344,7 +5344,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 6px;
+  padding: 8.4px;
 }
 article table tr,
 .table tr,
@@ -5368,8 +5368,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 35px;
-  margin-bottom: 36px;
+  margin-top: 49.4px;
+  margin-bottom: 50.4px;
 }
 hr::after {
   content: "§";
@@ -5455,7 +5455,7 @@ hr::after {
   }
 }
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
+  background-image: url("../img/magic-number-33.599999999999994px.png");
 }
 /**
 * Main, flash and sidebars layout
@@ -5534,7 +5534,7 @@ hr::after {
 }
 .region-sidebar-left .block.toc li,
 .region-sidebar-right .block.toc li {
-  background-color: #333;
+  background-color: #d49c6a;
   border-radius: 20px;
   padding: 10px;
   margin: 0.5em;
@@ -5543,7 +5543,7 @@ hr::after {
 .region-sidebar-left .block.toc li a,
 .region-sidebar-right .block.toc li a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
@@ -5565,7 +5565,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 13.02083333%;
-  border: 1px solid #666;
+  border: 1px solid #655091;
 }
 .block.author-byline .author-byline {
   display: inline-flex;
@@ -5645,7 +5645,7 @@ hr::after {
 }
 /* Header */
 .outer-wrap-header {
-  background-color: #333;
+  background-color: #d49c6a;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5669,7 +5669,7 @@ hr::after {
 }
 .region-header-col-1 .site-logo-text,
 .region-header-col-3 .site-logo-text {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Indie Flower", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .region-header-col-2 {
   display: inline;
@@ -5680,11 +5680,11 @@ hr::after {
   text-align: center;
 }
 .region-header-col-3 .rm-small-wrapper {
-  color: #fff;
+  color: #333;
 }
 .my-navbar {
   list-style-type: none;
-  color: #fff;
+  color: #333;
 }
 .my-navbar li a {
   /*    text-decoration: none;
@@ -5699,7 +5699,7 @@ hr::after {
   /*display: none;*/
 }
 .my-navbar li:hover ul li {
-  background-color: #333;
+  background-color: #d49c6a;
 }
 .site-logo-text {
   font-family: "Times New Roman", Times, serif;
@@ -5708,7 +5708,7 @@ hr::after {
   text-shadow: 2px -2px 2px #ccc;
 }
 .site-logo-text a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   transition: all 0.2s linear;
 }
@@ -5794,8 +5794,8 @@ hr::after {
  */
 /* Footer */
 .outer-wrap-footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #d49c6a;
+  color: #333;
 }
 .inner-wrap-footer {
   margin-right: auto;
@@ -5803,7 +5803,7 @@ hr::after {
   max-width: 100%;
 }
 .region-footer a {
-  color: #fff;
+  color: #333;
 }
 .footer-column {
   display: inline;
@@ -5858,3 +5858,16 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
+.region-sidebar-left .toc li,
+.region-sidebar-right .toc li {
+  background-color: #655091;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0.5em;
+  text-align: center;
+}
+.region-sidebar-left .toc li a,
+.region-sidebar-right .toc li a {
+  text-decoration: none;
+  color: #bbb;
+}

@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04 - DARK THEME -.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 - DARK THEME - where we use LESS.
  */
 /*
  *Normalizes and resets
@@ -5076,9 +5076,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #999;
-  font: 16px/1.5 "sans-serif";
+  color: #aaa;
+  background-color: #100303;
+  font: 16px/1.5 ABeeZee, Arial, sans-serif;
 }
 /*h1,
 h2,
@@ -5101,7 +5101,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Gelasio, "Times New Roman", serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5496,7 +5496,7 @@ hr::after {
   margin-left: 0.52083333%;
 }
 .region-main.has-sidebar .next-previous a {
-  color: #333;
+  color: #aaa;
 }
 .region-main.has-sidebar-right {
   display: inline;
@@ -5534,7 +5534,7 @@ hr::after {
 }
 .region-sidebar-left .block.toc li,
 .region-sidebar-right .block.toc li {
-  background-color: #333;
+  background-color: #100909;
   border-radius: 20px;
   padding: 10px;
   margin: 0.5em;
@@ -5543,7 +5543,7 @@ hr::after {
 .region-sidebar-left .block.toc li a,
 .region-sidebar-right .block.toc li a {
   text-decoration: none;
-  color: #fff;
+  color: #aaa;
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
@@ -5645,7 +5645,7 @@ hr::after {
 }
 /* Header */
 .outer-wrap-header {
-  background-color: #333;
+  background-color: #100909;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5669,7 +5669,7 @@ hr::after {
 }
 .region-header-col-1 .site-logo-text,
 .region-header-col-3 .site-logo-text {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Kurale, "Times New Roman", serif;
 }
 .region-header-col-2 {
   display: inline;
@@ -5680,11 +5680,11 @@ hr::after {
   text-align: center;
 }
 .region-header-col-3 .rm-small-wrapper {
-  color: #fff;
+  color: #aaa;
 }
 .my-navbar {
   list-style-type: none;
-  color: #fff;
+  color: #aaa;
 }
 .my-navbar li a {
   /*    text-decoration: none;
@@ -5699,7 +5699,7 @@ hr::after {
   /*display: none;*/
 }
 .my-navbar li:hover ul li {
-  background-color: #333;
+  background-color: #100909;
 }
 .site-logo-text {
   font-family: "Times New Roman", Times, serif;
@@ -5708,7 +5708,7 @@ hr::after {
   text-shadow: 2px -2px 2px #ccc;
 }
 .site-logo-text a {
-  color: #fff;
+  color: #aaa;
   text-decoration: none;
   transition: all 0.2s linear;
 }
@@ -5794,8 +5794,8 @@ hr::after {
  */
 /* Footer */
 .outer-wrap-footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #100909;
+  color: #aaa;
 }
 .inner-wrap-footer {
   margin-right: auto;
@@ -5803,7 +5803,7 @@ hr::after {
   max-width: 100%;
 }
 .region-footer a {
-  color: #fff;
+  color: #aaa;
 }
 .footer-column {
   display: inline;

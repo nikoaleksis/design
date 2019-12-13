@@ -1,0 +1,178 @@
+/*!
+* Stylesheet for design kmom04 - MINIMALISTIC -.
+*
+* This stylesheet is for the design course and kmom04 - MINIMALISTIC - where we use LESS.
+*/
+
+
+/*
+*Normalizes and resets
+*/
+@import "normalize.css/normalize.less";
+
+/*
+* Import mixins
+*/
+
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+/**
+* Font Awesome.
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+* A responsive menu.
+*/
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+* Internal self contained modules, save in directory module/.
+*/
+
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+* Import the typographic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+* Base style to affect HTML elements on a general scale.
+*/
+@import "base/base-hgrid.less";
+
+/**
+* Import the vertical grid.
+*/
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid-layout.less";
+@import "layout/vgrid-header.less";
+@import "layout/vgrid-footer.less";
+
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+//@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+* My own settings, not currently in their own module.
+*/
+
+@bgColorBody: #AAA739;
+@colorBody: #111;
+@headerBgColor: #AAA739;
+@headerColor: #111;
+@footerBgColor: #AAA739;
+@footerColor: #111;
+
+@fontFamilyHeadings: @fontFamilyGirassol;
+@fontFamilyBody:     @fontFamilyBigShouldersDisplay;
+@logoFont:           @fontFamilyMegrim;
+
+@colorH1BorderBottom: #ffe;
+@colorH2BorderBottom: #ffe;
+@colorH3BorderBottom: #ffe;
+@colorH5BorderBottom: #ffe;
+@colorH4BorderBottom: #ffe;
+@colorH6BorderBottom: #ffe;
+@borderSizeH1: 1px;
+@borderSizeH2: 1px;
+@borderSizeH3: 1px;
+@borderSizeH4: 1px;
+@borderSizeH5: 1px;
+@borderSizeH6: 1px;
+
+@fontSizeBody: 16px;
+@magicNumber:  @fontSizeBody * 1.5;
+
+//Minimalistic less
+
+.outer-wrap-flash {
+    height: 100px;
+    img {
+        display: none;
+    }
+}
+
+.region-header-col-2 {
+    display: none;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+
+    .block.toc {
+
+        .toc {
+
+            li {
+                border-radius: 0;
+                border: 1px solid #ffe;
+                padding: 10px;
+                margin: 0.5em;
+                text-align: center;
+
+
+                &:hover {
+                    background-color: #ffe;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: @colorBody;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(@columns * 0.6);
+        .site-logo-text {
+            font-size: 2.5em;
+        }
+    }
+
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns * 0.4);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-header-col-1 {
+        #desinax-vgrid.column(@columns * 0.6);
+        .site-logo-text {
+            font-size: 2.5em;
+        }
+    }
+
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns * 0.4);
+    }
+}
+
+@media screen and (max-width: 705px) {
+
+    .region-header-col-1 {
+        #desinax-vgrid.column(@columns * 0.6);
+        .site-logo-text {
+            font-size: 2.5em;
+        }
+    }
+
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns * 0.4);
+    }
+}

@@ -7,6 +7,9 @@
 @headerBgColor: #504949;
 @headerColor: #fff;
 
+@logoFont: @fontFamilyTimesNewRoman;
+
+
 
  .rm-desktop ul {
      display: block;
@@ -32,6 +35,10 @@
 
     .site-logo {
         display: none;
+    }
+
+    .site-logo-text {
+        font-family: @logoFont;
     }
 }
 
@@ -111,6 +118,14 @@
             font-size: 2em;
         }
     }
+    .region-header-col-3 {
+        #desinax-vgrid.column(1);
+    }
+
+    .region-header-col-2 {
+        #desinax-vgrid.column(19);
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -122,12 +137,12 @@
         }
     }
 
-    .region-header-col-3 {
-        #desinax-vgrid.column(1);
+    .region-header-col-1 {
+        #desinax-vgrid.column(3);
     }
 
     .region-header-col-2 {
-        #desinax-vgrid.column(19);
+        #desinax-vgrid.column(20);
         text-align: center;
     }
 }
