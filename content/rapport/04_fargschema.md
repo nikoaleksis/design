@@ -44,9 +44,9 @@ Denna webbsida använder typsnittet Lab Grotesque för sina rubriker. Detta är 
 
 ######TechCrunch
 
-Rubrikerna som finnes på TechCrunch hemsida använder sig av ett sans-serif typsnitt som kallas för Aktiv Grotesk. Typsnittet publicerades 2010 genom Dalton Maag och stilen beskrivs som något mellan Helvetica och Univers (Typewolf 2019). Även brödtexten är skriven i ett sans-serif typsnitt som kallas för Helvetica Neue. Precis som de två tidigare webbsajterna så följer denna sidan ett akromatiskt färgschema med en accentfärg. Accentfärgen på TechChrunch är även här inspirerad av den egna logotypen som i detta fallet har en grön nyans.
-
 [FIGURE src="image/techcrunch.png?w=500" class="right" caption="TechCrunch"]
+
+Rubrikerna som finnes på TechCrunch hemsida använder sig av ett sans-serif typsnitt som kallas för Aktiv Grotesk. Typsnittet publicerades 2010 genom Dalton Maag och stilen beskrivs som något mellan Helvetica och Univers (Typewolf 2019). Även brödtexten är skriven i ett sans-serif typsnitt som kallas för Helvetica Neue. Precis som de två tidigare webbsajterna så följer denna sidan ett akromatiskt färgschema med en accentfärg. Accentfärgen på TechChrunch är även här inspirerad av den egna logotypen som i detta fallet har en grön nyans.
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -66,7 +66,6 @@ Alla tre hemsidor använde sig av  akromatiska färgscheman där nästan hela si
 Referenser
 -----------------------
 
-Ange de eventuella referenser du använder dig av, om några.
 Grafdom (2019).Top 20 Best Tech Websites & Blogs.  https://www.grafdom.com/blog/top-20-best-tech-websites-and-blogs/ [2019-12-11]
 
 Paletton (2019). paletton.com. https://paletton.com/#uid=1000u0k00o+00nV00os00py00q6 [2019-12-11]

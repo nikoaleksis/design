@@ -5654,6 +5654,7 @@ hr::after {
 }
 .inner-wrap-header .row {
   margin-bottom: 0;
+  max-width: 100%;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5800,6 +5801,9 @@ hr::after {
 .inner-wrap-footer {
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
+}
+.inner-wrap-footer .row {
   max-width: 100%;
 }
 .region-footer a {
