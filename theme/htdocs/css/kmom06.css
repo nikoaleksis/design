@@ -1,11 +1,11 @@
 /*!
- * Stylesheet for design kmom04 - DARK THEME -.
- *
- * This stylesheet is for the design course and kmom04 - DARK THEME - where we use LESS.
- */
+* Stylesheet for design kmom06
+*
+* This stylesheet is for the design course and kmom06  where we use LESS.
+*/
 /*
- *Normalizes and resets
- */
+*Normalizes and resets
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -312,15 +312,15 @@ template {
   display: none;
 }
 /*
-  * Import mixins
- */
+* Import mixins
+*/
 /**
  * A small clearfix:
  * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
  */
 /**
-  * Font Awesome.
-  */
+* Font Awesome.
+*/
 /*!
  * Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -4732,8 +4732,8 @@ template {
   font-family: 'Font Awesome 5 Brands';
 }
 /**
- * Figure and figcaption for images and other media using figure/figcaption
- */
+* Figure and figcaption for images and other media using figure/figcaption
+*/
 /**
  * Figure with ASCIINEMA
  */
@@ -4744,8 +4744,8 @@ template {
  * Figure through .figure
  */
 /**
-  * A responsive menu.
-  */
+* A responsive menu.
+*/
 /**
  * Style for responsive menu
  */
@@ -4972,8 +4972,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Internal self contained modules, save in directory module/.
- */
+* Internal self contained modules, save in directory module/.
+*/
 /**
  * Style for the stylechooser.
  */
@@ -4984,8 +4984,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Style
  */
 /**
- * Import the typographic grid.
- */
+* Import the typographic grid.
+*/
 /**
  * Typographic font families to choose from.
  */
@@ -5083,8 +5083,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 /**
- * Base style to affect HTML elements on a general scale.
- */
+* Base style to affect HTML elements on a general scale.
+*/
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -5095,8 +5095,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #aaa;
-  background-color: #100303;
+  color: #eee;
+  background-color: #3E3340;
   font: 16px/1.5 ABeeZee, Arial, sans-serif;
 }
 /*h1,
@@ -5399,8 +5399,8 @@ hr::after {
   background-color: #fff;
 }
 /**
- * Import the vertical grid.
- */
+* Import the vertical grid.
+*/
 /**
  * Fluid and Responsive Vertical Grid
  */
@@ -5515,7 +5515,7 @@ hr::after {
   margin-left: 0.52083333%;
 }
 .region-main.has-sidebar .next-previous a {
-  color: #aaa;
+  color: #eee;
 }
 .region-main.has-sidebar-right {
   display: inline;
@@ -5553,7 +5553,7 @@ hr::after {
 }
 .region-sidebar-left .block.toc li,
 .region-sidebar-right .block.toc li {
-  background-color: #100909;
+  background-color: #1D181E;
   border-radius: 20px;
   padding: 10px;
   margin: 0.5em;
@@ -5562,7 +5562,7 @@ hr::after {
 .region-sidebar-left .block.toc li a,
 .region-sidebar-right .block.toc li a {
   text-decoration: none;
-  color: #aaa;
+  color: #eee;
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
@@ -5664,7 +5664,7 @@ hr::after {
 }
 /* Header */
 .outer-wrap-header {
-  background-color: #100909;
+  background-color: #1D181E;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5689,7 +5689,7 @@ hr::after {
 }
 .region-header-col-1 .site-logo-text,
 .region-header-col-3 .site-logo-text {
-  font-family: Kurale, "Times New Roman", serif;
+  font-family: "Baumans", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .region-header-col-2 {
   display: inline;
@@ -5700,11 +5700,11 @@ hr::after {
   text-align: center;
 }
 .region-header-col-3 .rm-small-wrapper {
-  color: #aaa;
+  color: #eee;
 }
 .my-navbar {
   list-style-type: none;
-  color: #aaa;
+  color: #eee;
 }
 .my-navbar li a {
   /*    text-decoration: none;
@@ -5719,7 +5719,7 @@ hr::after {
   /*display: none;*/
 }
 .my-navbar li:hover ul li {
-  background-color: #100909;
+  background-color: #1D181E;
 }
 .site-logo-text {
   font-family: "Times New Roman", Times, serif;
@@ -5728,7 +5728,7 @@ hr::after {
   text-shadow: 2px -2px 2px #ccc;
 }
 .site-logo-text a {
-  color: #aaa;
+  color: #eee;
   text-decoration: none;
   transition: all 0.2s linear;
 }
@@ -5814,8 +5814,8 @@ hr::after {
  */
 /* Footer */
 .outer-wrap-footer {
-  background-color: #100909;
-  color: #aaa;
+  background-color: #1D181E;
+  color: #eee;
 }
 .inner-wrap-footer {
   margin-right: auto;
@@ -5826,7 +5826,7 @@ hr::after {
   max-width: 100%;
 }
 .region-footer a {
-  color: #aaa;
+  color: #eee;
 }
 .footer-column {
   display: inline;
@@ -5844,9 +5844,9 @@ hr::after {
   text-align: center;
 }
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
 /**
  * Show off the regions used in the website, to ease styling.
  */
@@ -5879,5 +5879,38 @@ hr::after {
   color: #111;
 }
 /**
- * My own settings, not currently in their own module.
- */
+* My own settings, not currently in their own module.
+*/
+body {
+  background-color: rgba(62, 51, 54, 0.5);
+}
+body::after {
+  content: "";
+  background: url("../img/pattern.png");
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.5;
+}
+.outer-wrap-flash {
+  opacity: 0.8;
+}
+.outer-wrap-flash img {
+  box-shadow: 10px 10px 5px #222;
+}
+.outer-wrap-main img {
+  border-radius: 100px;
+  box-shadow: 10px 10px 5px #222;
+}
+.outer-wrap-footer {
+  opacity: 0.8;
+}
+.region-sidebar-left .block.toc li,
+.region-sidebar-right .block.toc li {
+  border-radius: 0px;
+  margin: 1em;
+  box-shadow: 10px 10px 5px #222;
+}

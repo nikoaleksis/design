@@ -5033,6 +5033,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-display: swap;
   src: local('Megrim'), url(https://fonts.gstatic.com/s/megrim/v10/46kulbz5WjvLqJZVam_k.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Baumans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baumans Regular'), local('Baumans-Regular'), url(https://fonts.gstatic.com/s/baumans/v9/-W_-XJj9QyTd3Qfpd_04bg.ttf) format('truetype');
+}
 /**
  * Typographic defaults.
  */
