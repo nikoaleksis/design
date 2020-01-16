@@ -1,5 +1,5 @@
 /*!
-* Stylesheet for design kmom06
+* Stylesheet for design kmom06 - Design Elements
 *
 * This stylesheet is for the design course and kmom06  where we use LESS.
 */
@@ -5544,15 +5544,21 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .region-sidebar-left .block.toc h4,
-.region-sidebar-right .block.toc h4 {
+.region-sidebar-right .block.toc h4,
+.region-sidebar-left .blog-toc h4,
+.region-sidebar-right .blog-toc h4 {
   text-align: center;
 }
 .region-sidebar-left .block.toc .toc,
-.region-sidebar-right .block.toc .toc {
+.region-sidebar-right .block.toc .toc,
+.region-sidebar-left .blog-toc .toc,
+.region-sidebar-right .blog-toc .toc {
   list-style-type: none;
 }
 .region-sidebar-left .block.toc li,
-.region-sidebar-right .block.toc li {
+.region-sidebar-right .block.toc li,
+.region-sidebar-left .blog-toc li,
+.region-sidebar-right .blog-toc li {
   background-color: #1D181E;
   border-radius: 20px;
   padding: 10px;
@@ -5560,7 +5566,9 @@ hr::after {
   text-align: center;
 }
 .region-sidebar-left .block.toc li a,
-.region-sidebar-right .block.toc li a {
+.region-sidebar-right .block.toc li a,
+.region-sidebar-left .blog-toc li a,
+.region-sidebar-right .blog-toc li a {
   text-decoration: none;
   color: #eee;
 }
